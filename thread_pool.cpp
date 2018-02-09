@@ -42,6 +42,11 @@ bool cppx::thread_pool::is_active() const
     return m_active;
 }
 
+void cppx::thread_pool::execute(std::function<void()> function)
+{
+    m_task_queue.put(function);
+}
+
 void cppx::thread_pool::shutdown()
 {
     m_active = false;

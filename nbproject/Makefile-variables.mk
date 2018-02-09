@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=threadpooltest
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/threadpooltest
+CND_ARTIFACT_NAME_Debug=threadpool
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/threadpool
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=threadpooltest.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/threadpooltest.tar
+CND_PACKAGE_NAME_Debug=threadpool.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/threadpool.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=threadpooltest
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/threadpooltest
+CND_ARTIFACT_NAME_Release=threadpool
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/threadpool
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=threadpooltest.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/threadpooltest.tar
+CND_PACKAGE_NAME_Release=threadpool.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/threadpool.tar
 #
 # include compiler specific variables
 #
