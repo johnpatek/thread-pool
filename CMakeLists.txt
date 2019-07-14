@@ -5,9 +5,4 @@ project(thread-pool)
 
 set(CMAKE_CXX_STANDARD 11)
 
-if (WIN32)
-
-else()
-
-endif()
-
+add_library(thread-pool thread_pool.cpp)
