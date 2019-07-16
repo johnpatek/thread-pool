@@ -11,3 +11,24 @@ cd build
 cmake ../thread-pool
 make
 ```
+
+Windows:
+
+```bat
+
+cd %USERPROFILE%\AppData\Local\Temp
+git clone https://github.com/johnpatek/thread-pool
+mkdir build
+cd build
+cmake ..\thread-pool
+make
+
+```
+
+Mac OS:
+
+```sh
+
+echo "I am a loser"
+
+```
