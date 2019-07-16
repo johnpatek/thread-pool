@@ -1,8 +1,7 @@
-/* 
- * File:   blocking_queue.h
+/**
+ * File blocking_queue.h
  * Author: John Patek
- *
- * Created on January 31, 2018, 3:24 AM
+ * Email: johnpatek2@gmail.com
  */
 
 #ifndef BLOCKING_QUEUE_H

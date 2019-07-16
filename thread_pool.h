@@ -1,6 +1,7 @@
-/* 
- * File:   thread_pool.h
+/**
+ * File thread_pool.h
  * Author: John Patek
+ * Email: johnpatek2@gmail.com
  */
 
 #ifndef THREAD_POOL_H

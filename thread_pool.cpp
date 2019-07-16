@@ -1,3 +1,9 @@
+/**
+ * File thread_pool.cpp
+ * Author: John Patek
+ * Email: johnpatek2@gmail.com
+ */
+
 #include <iostream>
 
 #include "thread_pool.h"
