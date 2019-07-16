@@ -19,7 +19,7 @@
 
 #include "blocking_queue.h"
 
-namespace cppx
+namespace cpp
 {
 
     class thread_pool
@@ -56,7 +56,7 @@ namespace cppx
 
     private:
         std::vector<std::thread> m_threads;
-        cppx::blocking_queue<std::function<void() >> m_task_queue;
+        cpp::blocking_queue<std::function<void() >> m_task_queue;
         bool m_active;
     };
 }

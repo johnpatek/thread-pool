@@ -12,7 +12,7 @@
 #include <queue>
 #include <deque>
 
-namespace cppx
+namespace cpp
 {
 
     template<class T, class Container = std::deque<T>>class blocking_queue

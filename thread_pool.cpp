@@ -8,7 +8,7 @@
 
 #include "thread_pool.h"
 
-cppx::thread_pool::thread_pool(const size_type pool_size)
+cpp::thread_pool::thread_pool(const size_type pool_size)
 {
     if (pool_size > 0)
     {
@@ -35,7 +35,7 @@ cppx::thread_pool::thread_pool(const size_type pool_size)
     }
 }
 
-cppx::thread_pool::~thread_pool()
+cpp::thread_pool::~thread_pool()
 {
     if (is_active())
     {
@@ -43,17 +43,17 @@ cppx::thread_pool::~thread_pool()
     }
 }
 
-bool cppx::thread_pool::is_active() const
+bool cpp::thread_pool::is_active() const
 {
     return m_active;
 }
 
-void cppx::thread_pool::execute(std::function<void()> function)
+void cpp::thread_pool::execute(std::function<void()> function)
 {
     m_task_queue.put(function);
 }
 
-void cppx::thread_pool::shutdown()
+void cpp::thread_pool::shutdown()
 {
     m_active = false;
     for (auto& thread : m_threads)
