@@ -10,4 +10,5 @@ include_directories(src/include)
 add_library(thread-pool SHARED thread_pool.cpp)
 
 install(TARGETS thread-pool DESTINATION /usr/lib)
-install(FILES blocking_queue.h )
+install(FILES blocking_queue.h DESTINATION /usr/include)
+install(FILES thread_pool.h DESTINATION /usr/include)
