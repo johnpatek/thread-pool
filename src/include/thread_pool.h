@@ -23,7 +23,9 @@ namespace thread_pool
 
 template<class F,class... Args> class callable_task
 {
-
+public:
+    using return_type = typename std::result_of < F(Args...)>::type;
+    
 };
 
 class runnable_task
