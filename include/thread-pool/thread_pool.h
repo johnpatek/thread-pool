@@ -25,7 +25,7 @@ namespace cpp
     class thread_pool
     {
     public:
-        using size_type = std::size_t;
+        using size_type = typename blocking_queue<std::function<void() >>::size_type;
 
         thread_pool(const size_type pool_size = std::thread::hardware_concurrency());
 
