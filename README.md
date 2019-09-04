@@ -10,6 +10,7 @@ mkdir build
 cd build
 cmake ../thread-pool
 make
+sudo make install
 ```
 
 Windows:

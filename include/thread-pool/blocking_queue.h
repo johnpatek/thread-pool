@@ -70,6 +70,7 @@ namespace cpp
             m_queue.pop();
             return result;
         }
+        
     private:
         std::condition_variable m_condition_variable;
         std::mutex m_mutex;
