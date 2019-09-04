@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 2.8)
 
 project(thread-pool)
 
+find_package (Threads)
+
 if(CMAKE_VERSION VERSION_LESS "3")
     add_definitions(-std=c++11)
 else()

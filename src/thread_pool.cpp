@@ -29,7 +29,6 @@ cpp::thread_pool::thread_pool(const size_type pool_size)
                             }
                             std::this_thread::yield();
                         }
-                        std::cout << "shutting down!" << std::endl;
                     });
         }
     }
