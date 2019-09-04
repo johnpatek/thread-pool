@@ -17,7 +17,7 @@
 #include <functional>
 #include <stdexcept>
 
-#include "blocking_queue.h"
+#include "thread-pool/blocking_queue.h"
 
 namespace cpp
 {

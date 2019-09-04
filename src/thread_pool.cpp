@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-#include "thread_pool.h"
+#include "thread-pool/thread_pool.h"
 
 cpp::thread_pool::thread_pool(const size_type pool_size)
 {
